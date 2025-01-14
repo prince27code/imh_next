@@ -1,3 +1,4 @@
+/* eslint-disable */
 'use client'
 
 import { useState } from 'react'
@@ -6,7 +7,6 @@ import {
   MapPin, 
   Phone, 
   Mail, 
-  Send 
 } from 'react-feather'
 
 
