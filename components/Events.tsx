@@ -51,7 +51,7 @@ export default function Events() {
       location: "Kathmandu, Nepal",
       description: "A global platform connecting media professionals to discuss emerging trends, technological innovations, and creative strategies in the media landscape.",
       category: "Media Conference",
-      image: "/images/media.jpg"
+      image: "/images/media.JPG"
     }
   ]
 
