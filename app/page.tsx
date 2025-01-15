@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main id="main-content" className="flex-1 relative">
+      <main id="main-content" className="flex-1 relative overflow-x-hidden">
         <Hero />
         <About />
         <Services />

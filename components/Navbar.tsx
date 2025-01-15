@@ -68,14 +68,17 @@ export default function Navbar() {
             whileHover={{ scale: 1.1 }}
             className="flex-shrink-0"
           >
+           
             <Link 
-              href="#" 
-              className="text-3xl font-black text-white tracking-wider 
-              bg-gradient-to-r from-indigo-500 to-purple-600 
-              bg-clip-text text-transparent"
-            >
-              IMH
-            </Link>
+  href="/" 
+  className="flex items-center"
+>
+  <img 
+    src="/images/logo.png" 
+    alt="IMH Logo" 
+    className="h-14 w-auto" 
+  />
+</Link>
           </motion.div>
           
           {/* Desktop Menu */}
@@ -106,11 +109,11 @@ export default function Navbar() {
 
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className=" md:hidden  ">
             <motion.button 
               whileTap={{ scale: 0.9 }}
               onClick={toggleMenu} 
-              className="inline-flex items-center justify-center p-2 
+              className="inline-flex left-10 items-center justify-center p-2 
               rounded-full text-gray-400 
               hover:text-white hover:bg-neutral-800 
               focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"

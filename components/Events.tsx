@@ -237,7 +237,8 @@ export default function Events() {
           className="text-center mt-16"
         >
           <Link 
-            href="/events" 
+            // href="/events" 
+            href="#contact"
             className="
               inline-flex 
               items-center 
