@@ -208,7 +208,8 @@ export default function Events() {
                   </p>
                   <div className="flex justify-center mt-4"> 
                   <Link 
-  href={`/register?event=${event.id}`} 
+  //href={`/register?event=${event.id}`} 
+ href="#contact"
   className="
     inline-block 
     bg-indigo-600 
